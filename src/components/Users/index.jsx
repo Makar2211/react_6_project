@@ -2,7 +2,7 @@ import React from 'react';
 import { Skeleton } from './Skeleton';
 import { User } from './User';
 
-export const Users = ({ items, isLoading, search,               onChangeSearchValue,  invites, onClickInvite, onClickSendInvites}) => {
+export const Users = ({ items, isLoading, search, onChangeSearchValue,  invites, onClickInvite, onClickSendInvites}) => {
 
   return (
     <>
